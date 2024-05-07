@@ -1,0 +1,334 @@
+
+/* ----section---- 01 */
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background: url(/img/vecteezy_technology-background-concept-circuit-board-electronic_6430145.jpg);
+    background-size: cover;
+}
+.logo{
+    width: 100px;
+    display: flex;
+    color: #ADD8E6;
+    align-items: center;
+    font-size: 40px;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0,0,0, 0.4);
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1000000;
+}
+.list{
+    margin-left: 150px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 15px ;
+    text-transform: uppercase;
+    position: relative;
+
+}
+.navbar ul li a{
+    color: rgb(255, 255, 255);
+}
+.navbar ul li::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: #30d5c8;
+    left: 0;
+    bottom: -5px;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+.navbar ul li:hover::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.shoshalmedia{
+    width: 170px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.shoshalmedia a{
+    font-size: 31px;
+    color: white;
+    background: transparent; 
+}
+.shoshalmedia a:hover{
+    color:#30d5c8;
+    filter: drop-shadow(1px 1px 15px #30d5c8 );
+}
+.About-Section{
+    width: 100%;
+    height: 90vh;
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    top: 90px;
+}
+.img1{
+    position: relative;
+    left: 220px;
+    max-width: 350px;
+}
+.img1 img{
+    width: 350px;
+    border-radius: 50%;
+    filter: drop-shadow(1px 1px 10px #30d5c8 );
+}
+.About{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    right: 20px;
+}
+.about_bt{
+    font-size: 19px;
+    text-align: center;
+    display: inline-block;
+    padding: 4px 20px;
+    color: white;
+    border-radius: 20px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+    font-weight: 600;
+    background-color: #30d5c8;
+}
+.about_bt:hover{
+    box-shadow: 0 0 40px #30d5c8; 
+    color: black;
+}
+.kkkkk{
+    color: #fffb1f;
+}
+
+/* ----section---- 02 */
+
+.abot_me{
+    height: 100vh;
+    width: 100%;
+    background: url(/img/vecteezy_technology-background-concept-circuit-board-electronic_6430145\ \(1\).jpg);
+    background-size: cover;
+    align-items: center;
+
+}
+.abot_me1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.abot_me1 img{
+    width: 350px;
+    border-radius: 50px;
+    position: relative;
+}
+.img2{
+    
+    position: relative;
+    left: 200px;
+}
+.ab_me{
+    width: 530px;
+    height: 250px;
+    position: relative;
+    right: 200px;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.sp2{
+    color: #30d5c8;
+}
+
+/* ----section---- 03 */
+.Projects{
+    width: 100%;
+    height: 100vh;
+    background: url(/img/vecteezy_technology-background-concept-circuit-board-electronic_6430145.jpg);
+    background-size: cover;
+}
+.Projects_list{
+    display: flex;
+    position: relative;
+    top: 130px;
+    margin: 0 40px;
+    justify-content: space-around;
+}
+.Projects_list img{
+    width: 250px;
+    height: 350px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.mp{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 75px;
+    font-weight: 600;
+
+}
+.Projects_list img:hover{
+    box-shadow: 0 0 40px #30d5c8;
+    transform:scale(1.1)
+}
+
+
+/* ----section---- 04 */
+.resume{
+width: 100%;
+height: 100vh;
+background: url(/img/vecteezy_technology-background-concept-circuit-board-electronic_6430145.jpg);
+background-size: cover;
+position: relative;
+}
+.h2v{
+    color: #ADD8E6;
+    font-size: 30px;
+}
+.resume p{
+    color: white;
+    font-size: 20px;
+}
+.bt2{
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    padding: 4px 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 15px 0;
+    font-weight: 600;
+    background-color: #30d5c8;
+    cursor: pointer;
+}
+.bt2:hover{
+    box-shadow: 0 0 10px #30d5c8; 
+    color: rgb(255, 255, 255);
+
+}
+.vv{
+    position: relative;
+    text-align: center;
+    top: 80px;
+
+}
+.re{
+    position: relative;
+    top: 155px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    color: rgb(66, 241, 60);
+    font-weight: 600;
+}
+.ps{
+    font-size: 20px;
+    position: absolute;
+    top: 250px;
+    left: 190px;
+    color: white;
+
+}
+.progress_is-warning{
+    width: 300px;
+}
+.nbk{
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    top: 250px;
+}
+.nbk i{
+    font-size: 40px;
+    margin: 6px;
+}
+.aaaa{
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+.aaaa:hover{
+    color: #fffb1f;
+    filter: drop-shadow(1px 1px 10px #fffb1f );
+}
+
+
+/* ----section---- 05 */
+.Contact{
+    width: 100%;
+    height: 100vh;
+    background: url(/img/web-development-banner.jpg);
+    background-size: cover;
+    align-items: center;
+}
+.cme{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    top: 85px;
+    font-size: 30px;
+}
+.ff{
+    position: relative;
+    text-align: center;
+    top: 80px;
+    margin: 20px;
+    height: 70vh;
+    width: 600px;
+    left: 390px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.ff input{
+    width: 500px;
+    height: 30px;
+    padding: 20px;
+    margin: 10px;
+}
+#subject{
+    width: 500px;
+    padding: 20px;
+}
+.bt3{
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    padding: 4px 15px;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin: 5px 0;
+    font-weight: 600;
+    background-color: #30d5c8;
+    cursor: pointer;
+}
+.bt3:hover{
+    box-shadow: 0 0 10px #30d5c8; 
+    color: rgb(255, 255, 255);
+    
+}
